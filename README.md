@@ -1,5 +1,5 @@
 # Personal Portfolio 
-This is the source code for my site. ()
+This is the source code for my site. https://chong-anson.github.io/portfolio/
 
 ## Credits & Copyrights
 This site is generated with Jekyll and hosted via Github Pages.
