@@ -38,10 +38,35 @@
   // border-radius: 10px;
   // margin: 8em auto 0 auto;
 
-  h1{
-    padding: 0.5em;
+  .title{
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     @media only screen and (min-width:$cut){
-      padding: 0.5em;
+      padding: 24px;
+    }
+  }
+
+  h1 {
+    width: 100%;
+    @media only screen and (min-width:$cut){
+      width: 65%;
+    }
+  }
+
+  .logo{
+    margin-top: 2rem;
+    @media only screen and (min-width:$cut){
+      margin-top: 7rem;
+    }
+  }
+
+  .logo img {
+    border-radius: 50%;
+    width: 100px;
+    @media only screen and (min-width:$cut){
+      width: 200px;
     }
   }
 

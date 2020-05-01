@@ -1,8 +1,8 @@
 # Site settings
 title: Anson Chong | About
 description: A personal portfolio of a talented software engineer
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "/chong-anson.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "/chong-anson.github.io/portfolio" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Anson Chong
