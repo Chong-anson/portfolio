@@ -1,0 +1,60 @@
+#about {
+  // width: 90%;
+  // border: solid 1px red;
+  max-width: 960px;
+  padding-left: 12px;
+
+  @media only screen and (min-width: $cut) {
+    padding-left: 24px;
+    width: 80%;
+
+  }
+
+}
+
+.tech {
+  margin: 10px 0;
+  h2 {
+    font-size: 1rem;
+    @media only screen and (min-width: $cut){
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.user {
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  p {
+    font-size: 20px;
+  }
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    font-size: 65px;
+  }
+}
+
+.user-details {
+  text-align: left;
+  // margin: 5px auto;
+  h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    @media only screen and (min-width: $cut){
+      font-size: 2rem;
+    }
+  }
+  p {
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: justify;
+    @media only screen and (min-width: $cut){
+      width: 70%;
+      font-size: 1.2rem;
+    }
+  }
+}

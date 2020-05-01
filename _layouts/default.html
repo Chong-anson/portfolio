@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    
+    <div id="particles-js"></div>
+    <div id="wrapper">
+      {% include header.html %}
+      <section id="projects">
+        <!-- <div class="inner"> -->
+        {% include projects.html %}
+      </section>
+      <section id="about">
+        <!-- <div class="inner"> -->
+          {% include about.html %}
+        <!-- </div> -->
+      </section>
+      <!-- </div> -->
+      <a class="down" href="#particles-js" data-scroll><i class="icon fa fa-chevron-up" aria-hidden="true"></i></a>
+    </div>
+          {{ content }}
+      {% include footer.html %}
+  </body>
