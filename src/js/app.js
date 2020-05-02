@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       "particles": {
         "number": {
-          "value": 200,
+          "value": 120,
           "density": {
-            "enable": true,
+            "enable": false,
             "value_area": 1500
           }
         },
@@ -46,21 +46,21 @@ document.addEventListener("DOMContentLoaded", function () {
           "random": true,
           "anim": {
             "enable": true,
-            "speed": 30,
+            "speed": 10,
             "size_min": 0.1,
             "sync": false
           }
         },
         "line_linked": {
           "enable": true,
-          "distance": 400,
+          "distance": 300,
           "color": "#ffffff",
-          "opacity": 0.1,
+          "opacity": 0.2,
           "width": 1
         },
         "move": {
           "enable": true,
-          "speed": 2,
+          "speed": 0.5,
           "direction": "none",
           "random": true,
           "straight": false,
