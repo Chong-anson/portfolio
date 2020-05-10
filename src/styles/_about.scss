@@ -53,10 +53,12 @@
     width: 80%;
     margin: 0 auto;
     list-style: none;
-    display: flex;
     @media only screen and (min-width: $cut){
       width: 30%;
     }    
+    li {
+      padding: 5px;
+    }
   }
   p {
     width: 90%;
