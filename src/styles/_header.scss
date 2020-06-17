@@ -7,8 +7,8 @@
   background-size: cover;
   background-attachment: fixed;
   .particles-js-canvas-el {
-    width:100% !important;
-    height:100vh !important;
+    width: 100% !important;
+    height: 100vh !important;
     position: fixed;
     z-index: -10;
   }
@@ -18,7 +18,7 @@
   width: 80%;
   background: $bg2;
   margin: 8em auto 0 auto;
-  @media only screen and (max-width:$cut){
+  @media only screen and (max-width: $cut) {
     margin: 0.3em auto 0 auto;
     width: 100%;
     background-color: $bg2;
@@ -37,26 +37,26 @@
   // border-radius: 10px;
   // margin: 8em auto 0 auto;
 
-  .title{
+  .title {
     padding: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       padding: 24px;
     }
   }
 
   h1 {
     width: 100%;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       width: 70%;
     }
   }
 
-  .logo{
+  .logo {
     margin-top: 2rem;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       margin-top: 7rem;
     }
   }
@@ -64,7 +64,7 @@
   .logo img {
     border-radius: 50%;
     width: 100px;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       width: 200px;
     }
   }
@@ -76,7 +76,7 @@
     color: $font;
     padding-top: 0.3em;
 
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       margin: 0;
       font-size: 4rem;
       width: 100%;
@@ -90,7 +90,7 @@
     color: $font;
     margin-top: 10px;
     font-weight: 300;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       font-size: 1.75rem;
       // width: 65%;
     }
@@ -106,7 +106,7 @@
     text-decoration: none;
     font-size: 18px;
     margin: 10px;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       font-size: 24px;
     }
   }
@@ -118,9 +118,9 @@
   text-align: center;
   padding-top: 40px;
   flex-wrap: wrap;
-  a { 
+  a {
     text-decoration: none;
-    color: $font; 
+    color: $font;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -128,7 +128,7 @@
     width: 28%;
     font-size: 18px;
     margin: 10px 0;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width: $cut) {
       width: 12%;
       font-size: 24px;
     }
@@ -143,7 +143,7 @@
     margin: 5px;
     border-radius: 50%;
     border: 2px solid $font;
-    transition: all .7s;
+    transition: all 0.7s;
     &:hover {
       color: $main;
       background: $font;
@@ -152,7 +152,7 @@
       color: $main;
       background: $font;
     }
-    @media only screen and (min-width:$cut) {
+    @media only screen and (min-width: $cut) {
       width: 35px;
       height: 35px;
       font-size: 35px;
@@ -171,26 +171,23 @@
   font-size: 30px;
   cursor: pointer;
   .icon {
-      // position: absolute;
-      -webkit-transform-style: preserve-3d;
-      transform-style: preserve-3d;
-      // top: 50%;
-      // left: 50%;
-      // -webkit-transform: translate(-50%, -200%);
-      // transform: translate(-50%, -200%);
-      width: 100px;
-      height: 100px;
-      fill: $font;
-      -webkit-animation: pulse 1.3s infinite;
-      animation: pulse 1.3s infinite;
-      &:hover {
-        color: $font2;
-      }
-      &:active {
-        color: $font2;
-      }
+    // position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    // top: 50%;
+    // left: 50%;
+    // -webkit-transform: translate(-50%, -200%);
+    // transform: translate(-50%, -200%);
+    width: 100px;
+    height: 100px;
+    fill: $font;
+    -webkit-animation: pulse 1.3s infinite;
+    animation: pulse 1.3s infinite;
+    &:hover {
+      color: $font2;
+    }
+    &:active {
+      color: $font2;
+    }
   }
 }
-
-
-
